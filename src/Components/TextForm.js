@@ -15,7 +15,7 @@ setText(event.target.value)
         props.showAlert("Converted to upper case","success")
     }
     const handleLoClick=()=>{
-        let newText=text.toLowerCase;
+        let newText=text.toLowerCase();
         setText(newText); 
         props.showAlert("Converted to upper case", "success")
     }
